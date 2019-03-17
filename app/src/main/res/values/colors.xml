@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="celeste">#0489B1</color>
+    <color name="celesteBajo">#CEF6F5</color>
+    <color name="verdeagua">#00695C</color>
+    <color name="amarillo">#FFC500</color>
+    <color name="gris">#424242</color>
+    <color name="blanco">#ffffff</color>
+    <color name="naranja">#FAAC58</color>
+    <color name="naranjaFuerte">#FF8000</color>
+    <color name="negro">#000</color>
+    <color name="azul">#093697</color>
+    <color name="humo">#E6E6E6</color>
+    <color name="humo2">#EEEEEE</color>
+    <color name="alert">#FA5858</color>
+    <color name="exito">#01c4a4</color>
+    <color name="amarillo_patito">#FFFF00</color>
+    <color name="humo_gris">#BBBBBB</color>
+    <color name="verde_transparente">#5501c4a4</color>
+    <color name="blanco_transparente">#99FFFFFF</color>
+    <color name="fastbuy">#01c4a4</color>
+    <color name="etiqueta">#2201c4a4</color>
+    <color name="etiquetaRoja">#22FA5858</color>
+    <color name="verde_limon">#A1FF52</color>
+</resources>

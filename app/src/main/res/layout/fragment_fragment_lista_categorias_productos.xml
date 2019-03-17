@@ -1,0 +1,20 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context="com.fastbuyapp.omar.fastbuy.com.fastbuyapp.fastbuy.fastbuy.FragmentListaCategoriasProductos"
+    android:id="@+id/PanelContenedorCategorias">
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:scrollbars="vertical"
+        android:id="@+id/rcvListaCategoriasProductos" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:srcCompat="@mipmap/ic_launcher"
+        android:id="@+id/imageView3" />
+</LinearLayout>

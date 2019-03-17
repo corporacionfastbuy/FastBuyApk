@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:padding="7dp"
+    android:background="@drawable/shadow"
+    android:layout_marginBottom="5dp">
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtDescripcion"
+        android:textSize="16dp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/imgProductos"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="@color/fastbuy"
+        android:padding="2dp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtDescripcion"
+        android:layout_toRightOf="@+id/imgProductos"
+        android:layout_toEndOf="@+id/imgProductos"
+        android:textSize="11dp"
+        android:layout_marginTop="0dp"
+        android:id="@+id/txtCategoria"
+        android:padding="5dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            app:srcCompat="@mipmap/ic_launcher"
+            android:id="@+id/imgProductos"
+            android:layout_gravity="center_horizontal"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="2dp"
+            android:layout_width="220dp"
+            android:layout_height="200dp" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="10dp">
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <RadioButton
+                    android:text="Personal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton4"
+                    android:checked="true"
+                    android:drawableRight="@android:drawable/btn_radio"
+                    android:button="@null"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_weight="1" />
+
+                <RadioButton
+                    android:text="Mediana"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton5"
+                    android:drawableRight="@android:drawable/btn_radio"
+                    android:button="@null"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_weight="1" />
+
+                <RadioButton
+                    android:text="Familiar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableRight="@android:drawable/btn_radio"
+                    android:button="@null"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/radioButton6"
+                    android:layout_weight="1" />
+
+            </RadioGroup>
+
+            <TextView
+                android:text="TextView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/txtPrecio"
+                android:layout_below="@+id/txtCategoria"
+                android:layout_toRightOf="@+id/imgProductos"
+                android:layout_toEndOf="@+id/imgProductos"
+                android:textStyle="normal|bold"
+                android:gravity="bottom"
+                android:layout_gravity="bottom"
+                android:textAlignment="textEnd"
+                android:textSize="18dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="5"
+        android:layout_weight="1">
+
+        <Button
+            android:text="Personalizar"
+            android:id="@+id/btnPersonalizar"
+            android:padding="0dp"
+            android:layout_alignTop="@+id/txtCantidad"
+            android:layout_toLeftOf="@+id/txtCantidad"
+            android:layout_toStartOf="@+id/txtCantidad"
+            android:layout_weight="1"
+            android:layout_height="50dp"
+            android:layout_width="200dp" />
+
+        <Button
+            android:text="-"
+            android:layout_width="wrap_content"
+            android:id="@+id/btnMenos"
+            android:padding="0dp"
+            android:layout_alignTop="@+id/txtCantidad"
+            android:layout_toLeftOf="@+id/txtCantidad"
+            android:layout_toStartOf="@+id/txtCantidad"
+            android:layout_weight="1"
+            android:layout_height="50dp" />
+
+        <EditText
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/txtCantidad"
+            android:background="@color/celesteBajo"
+            android:textAlignment="center"
+            android:layout_alignTop="@+id/btnMas"
+            android:layout_toLeftOf="@+id/btnMas"
+            android:layout_toStartOf="@+id/btnMas"
+            android:enabled="false"
+            android:text="0"
+            android:layout_weight="1"
+            android:layout_marginTop="2dp" />
+
+        <Button
+            android:text="+"
+            android:layout_width="wrap_content"
+            android:id="@+id/btnMas"
+            android:padding="0dp"
+            android:layout_alignBottom="@+id/btnAgregar"
+            android:layout_toLeftOf="@+id/btnAgregar"
+            android:layout_toStartOf="@+id/btnAgregar"
+            android:layout_weight="1"
+            android:layout_height="50dp" />
+
+        <ImageButton
+            app:srcCompat="@drawable/shopping_cart_button"
+            android:id="@+id/btnAgregar"
+            android:padding="5dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:layout_below="@+id/txtPrecio"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_weight="1"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="6dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

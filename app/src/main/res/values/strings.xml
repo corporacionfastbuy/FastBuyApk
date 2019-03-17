@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Fast Buy</string>
+    <string-array name="ciudades">
+        <item>Chepén</item>
+        <item>Guadalupe</item>
+        <item>Pacasmayo</item>
+    </string-array>
+    <string-array name="formaPago">
+        <item>Efectivo</item>
+        <item>Tarjeta</item>
+        <item>Efectivo y Tarjeta</item>
+    </string-array>
+    <string name="facebook_app_id">930828303632505</string>
+    <string name="fb_login_protocol_scheme">fb930828303632505</string>
+    <string name="title_activity_dialog_fragment_view_image">dialog_fragment_view_image</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
