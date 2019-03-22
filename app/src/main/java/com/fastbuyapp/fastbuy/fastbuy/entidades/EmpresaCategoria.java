@@ -4,7 +4,7 @@ package com.fastbuyapp.fastbuy.fastbuy.entidades;
  * Created by OMAR on 11/03/2019.
  */
 
-public class Rubro {
+public class EmpresaCategoria {
     private int codigo;
     private String descripcion;
     private String imagen;
@@ -43,11 +43,4 @@ public class Rubro {
         this.estado = estado;
     }
 
-    public String getUbicacion() {
-        return ubicacion;
-    }
-
-    public void setUbicacion(String ubicacion) {
-        this.ubicacion = ubicacion;
-    }
 }

@@ -45,7 +45,7 @@ public class FragmentListaEmpresas extends Fragment {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_fragment_lista_empresas, container, false);
         Servidor s = new Servidor();
-        String rubro = String.valueOf(Globales.rubro);
+        String rubro = String.valueOf(Globales.Subcategoria);
         String ciudad = String.valueOf(1);
         String rub = null;
         String ciu = null;

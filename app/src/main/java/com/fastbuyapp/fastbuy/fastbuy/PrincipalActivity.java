@@ -30,7 +30,7 @@ public class PrincipalActivity extends AppCompatActivity {
         }
         final ImageButton btnCategoriasEmpresas = (ImageButton) findViewById(R.id.btnCategoriaEmpresas);
         final ImageButton btnCarritoCompras = (ImageButton) findViewById(R.id.btnCarritoCompras);
-        final FragmentSubCategoriaEmpresas panelCategoriaEmpresas = new FragmentSubCategoriaEmpresas();
+        final FragmentCategoriaEmpresas panelCategoriaEmpresas = new FragmentCategoriaEmpresas();
         final FragmentCarrito panelCarritoCompras = new FragmentCarrito();
         final FragmentManager manager = getSupportFragmentManager();
 

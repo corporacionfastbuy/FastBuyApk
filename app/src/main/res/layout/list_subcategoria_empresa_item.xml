@@ -15,7 +15,7 @@
             android:layout_width="match_parent"
             android:layout_height="104dp"
             app:srcCompat="@drawable/shopping_cart_button"
-            android:id="@+id/ivimagenrubro" />
+            android:id="@+id/ivimagensub" />
 
     </LinearLayout>
 
@@ -28,7 +28,7 @@
             android:text="TextView"
             android:layout_width="match_parent"
             android:layout_height="40dp"
-            android:id="@+id/txtNombreRubro"
+            android:id="@+id/txtNombreSub"
             android:layout_marginLeft="5dp"
             android:background="@drawable/item_rubros"
             android:layout_marginRight="5dp"

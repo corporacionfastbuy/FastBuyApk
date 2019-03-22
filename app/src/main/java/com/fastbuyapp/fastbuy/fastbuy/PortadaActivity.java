@@ -49,6 +49,7 @@ public class PortadaActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent i = new Intent(getApplicationContext(), PrincipalActivity.class );
                 i.putExtra("ubicacion", cboCiudad.getSelectedItem().toString());
+                Globales.ubicacion = 1;
                 Globales.ciudad = cboCiudad.getSelectedItem().toString();
                 startActivity(i);
             }

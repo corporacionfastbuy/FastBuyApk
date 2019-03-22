@@ -33,7 +33,9 @@ public class Globales {
     }
 
     public static String ciudad = "";
-    public static int rubro;
+    public static int Subcategoria;
+    public static int categoria;
+    public static int ubicacion;
     public static int empresaSeleccionada;
     public static int catProductoSeleccionado;
 

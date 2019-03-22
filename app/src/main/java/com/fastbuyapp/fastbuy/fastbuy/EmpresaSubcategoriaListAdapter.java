@@ -9,7 +9,8 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.fastbuyapp.fastbuy.fastbuy.entidades.Rubro;
+import com.fastbuyapp.fastbuy.fastbuy.entidades.EmpresaCategoria;
+import com.fastbuyapp.fastbuy.fastbuy.entidades.EmpresaSubcategoria;
 import com.fastbuyapp.omar.fastbuy.R;
 import com.fastbuyapp.fastbuy.fastbuy.config.Servidor;
 import com.squareup.picasso.Picasso;
@@ -20,13 +21,13 @@ import java.util.ArrayList;
  * Created by OMAR on 11/03/2019.
  */
 
-public class RubroListAdapter  extends BaseAdapter {
+public class EmpresaSubcategoriaListAdapter extends BaseAdapter {
     private Typeface fuente1;
     private Context context;
     private int layout;
-    private ArrayList<Rubro> rubroList;
+    private ArrayList<EmpresaSubcategoria> rubroList;
 
-    public RubroListAdapter(Context context, int layout, ArrayList<Rubro> rubroList) {
+    public EmpresaSubcategoriaListAdapter(Context context, int layout, ArrayList<EmpresaSubcategoria> rubroList) {
         this.context = context;
         this.layout = layout;
         this.rubroList = rubroList;
@@ -55,28 +56,28 @@ public class RubroListAdapter  extends BaseAdapter {
 
     @Override
     public View getView(final int i, View row, ViewGroup viewGroup) {
-        RubroListAdapter.ViewHolder holder = null;
+        EmpresaSubcategoriaListAdapter.ViewHolder holder = null;
         if (row == null){
             LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             row = inflater.inflate(layout,viewGroup,false);
-            holder = new RubroListAdapter.ViewHolder();
-            holder.descripcion = (TextView) row.findViewById(R.id.txtNombreRubro);
-            holder.imagen = (ImageView) row.findViewById(R.id.ivimagenrubro);
+            holder = new EmpresaSubcategoriaListAdapter.ViewHolder();
+            holder.descripcion = (TextView) row.findViewById(R.id.txtNombreSub);
+            holder.imagen = (ImageView) row.findViewById(R.id.ivimagensub);
             row.setTag(holder);
         }
         else{
-            holder = (RubroListAdapter.ViewHolder) row.getTag();
+            holder = (EmpresaSubcategoriaListAdapter.ViewHolder) row.getTag();
         }
 
         String fuente = "fonts/fuente1.ttf";
         this.fuente1 = Typeface.createFromAsset(context.getAssets(), fuente);
-        Rubro rubro = rubroList.get(i);
+        EmpresaSubcategoria rubro = rubroList.get(i);
         holder.descripcion.setText(rubro.getDescripcion());
         holder.codigo = rubro.getCodigo();
         holder.descripcion.setTypeface(fuente1);
         String nombreImagen = rubro.getImagen();
         Servidor s = new Servidor();
-        String url = "http://"+s.getServidor()+"/rubros/imagenes/" + nombreImagen;
+        String url = "http://"+s.getServidor()+"/empresas/subcategorias/imagenes/" + nombreImagen;
         Picasso.with(context)
                 .load(url)
                 .error(R.mipmap.ic_launcher)
