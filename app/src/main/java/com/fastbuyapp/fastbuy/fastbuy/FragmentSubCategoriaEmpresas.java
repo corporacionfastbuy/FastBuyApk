@@ -39,7 +39,7 @@ public class FragmentSubCategoriaEmpresas extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View view = inflater.inflate(R.layout.fragment_fragment_categoria_empresas, container, false);
+        View view = inflater.inflate(R.layout.fragment_fragment_subcategoria_empresas, container, false);
         try {
             listarRubros(String.valueOf(1));
         } catch (UnsupportedEncodingException e) {

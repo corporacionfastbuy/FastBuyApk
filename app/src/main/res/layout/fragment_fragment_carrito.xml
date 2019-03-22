@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:weightSum="4"
-    tools:context="com.fastbuyapp.omar.fastbuy.com.fastbuyapp.fastbuy.fastbuy.FragmentCarrito">
+    tools:context="com.fastbuyapp.fastbuy.fastbuy.FragmentCarrito">
 
     <LinearLayout
         android:orientation="vertical"

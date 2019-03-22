@@ -10,7 +10,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:orientation="vertical"
-    tools:context="com.fastbuyapp.omar.fastbuy.com.fastbuyapp.fastbuy.fastbuy.PortadaActivity"
+    tools:context="com.fastbuyapp.fastbuy.fastbuy.PortadaActivity"
     android:background="@color/fastbuy"
     >
 

@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:weightSum="1"
-    tools:context="com.fastbuyapp.omar.fastbuy.com.fastbuyapp.fastbuy.fastbuy.FragmentResumenEfectivo"
+    tools:context="com.fastbuyapp.fastbuy.fastbuy.FragmentResumenEfectivo"
     android:padding="10dp">
 
     <!-- TODO: Update blank fragment layout -->

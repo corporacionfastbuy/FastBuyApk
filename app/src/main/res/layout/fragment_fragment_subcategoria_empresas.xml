@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:orientation="vertical"
     android:layout_height="match_parent"
-    tools:context="com.fastbuyapp.omar.fastbuy.com.fastbuyapp.fastbuy.fastbuy.FragmentCategoriaEmpresas"
+    tools:context="com.fastbuyapp.fastbuy.fastbuy.FragmentSubCategoriaEmpresas"
     android:id="@+id/PanelContenedorEmpresas">
 
     <LinearLayout

@@ -4,7 +4,7 @@
     android:orientation="vertical"
     android:weightSum="1"
     android:layout_height="match_parent"
-    tools:context="com.fastbuyapp.omar.fastbuy.com.fastbuyapp.fastbuy.fastbuy.FragmentDatosPedido"
+    tools:context="com.fastbuyapp.fastbuy.fastbuy.FragmentDatosPedido"
     android:layout_marginTop="15dp">
 
     <!-- TODO: Update blank fragment layout -->

@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:orientation="vertical"
     android:layout_height="match_parent"
-    tools:context="com.fastbuyapp.omar.fastbuy.com.fastbuyapp.fastbuy.fastbuy.CarritoActivity"
+    tools:context="com.fastbuyapp.fastbuy.fastbuy.CarritoActivity"
     android:background="@color/humo"
     android:weightSum="1">
 

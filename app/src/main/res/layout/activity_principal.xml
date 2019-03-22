@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.fastbuyapp.omar.fastbuy.com.fastbuyapp.fastbuy.fastbuy.PrincipalActivity">
+    tools:context="com.fastbuyapp.fastbuy.fastbuy.PrincipalActivity">
 
 
     <android.support.v7.widget.Toolbar

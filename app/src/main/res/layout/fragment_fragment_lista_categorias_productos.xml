@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    tools:context="com.fastbuyapp.omar.fastbuy.com.fastbuyapp.fastbuy.fastbuy.FragmentListaCategoriasProductos"
+    tools:context="com.fastbuyapp.fastbuy.fastbuy.FragmentListaCategoriasProductos"
     android:id="@+id/PanelContenedorCategorias">
 
     <android.support.v7.widget.RecyclerView

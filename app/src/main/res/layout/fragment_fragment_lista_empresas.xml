@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.fastbuyapp.omar.fastbuy.com.fastbuyapp.fastbuy.fastbuy.FragmentListaEmpresas">
+    tools:context="com.fastbuyapp.fastbuy.fastbuy.FragmentListaEmpresas">
 
     <EditText
         android:layout_width="match_parent"

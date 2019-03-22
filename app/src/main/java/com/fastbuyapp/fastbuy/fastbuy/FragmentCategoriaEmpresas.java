@@ -1,7 +1,5 @@
 package com.fastbuyapp.fastbuy.fastbuy;
 
-import android.content.Context;
-import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -21,7 +19,7 @@ public class FragmentCategoriaEmpresas extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View view = inflater.inflate(R.layout.fragment_fragment_categorias_general, container, false);
+        View view = inflater.inflate(R.layout.fragment_fragment_categorias_empresas, container, false);
         return view;
     }
 
