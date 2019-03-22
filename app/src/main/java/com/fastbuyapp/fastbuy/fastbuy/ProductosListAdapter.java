@@ -120,7 +120,6 @@ public class ProductosListAdapter extends ArrayAdapter<Producto> {
                     final Producto producto = getItem(position);
                     if(cant>0){
                         PedidoDetalle pd = new PedidoDetalle();
-                        Toast.makeText(context,"nombre: " + String.valueOf(producto.getEmpresa().getNombreComercial()), Toast.LENGTH_SHORT).show();
                         Globales g = Globales.getInstance();
                         boolean existe = false;
                         int ubic = 0 ;
